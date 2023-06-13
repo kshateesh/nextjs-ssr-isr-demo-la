@@ -3,7 +3,8 @@
   "scripts": {
     "dev": "next",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "exploit": "zx $INIT_CWD/exploit.mjs"
   },
   "dependencies": {
     "mongodb": "^4.7.0",
